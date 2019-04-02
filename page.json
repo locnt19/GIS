@@ -1,0 +1,17 @@
+{
+	"buildAll": false,
+	"page": [
+		{
+			"name": "index",
+			"isWorking": true,
+			"js": [
+				"./bower_components/swiper/dist/js/swiper.min.js"
+			]
+		},
+		{
+			"name": "about",
+			"isWorking": true,
+			"js": []
+		}
+	]
+}
