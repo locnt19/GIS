@@ -1,8 +1,12 @@
 extends ../_layout.pug
 
 block var
-	- var title = "Home"
+	- var title = "Homepage"
 	- var name = "index"
 	- var bodyClass = "index-page"
 
 block main
+	include ../../components/home/country/index.pug
+	include ../../components/home/services/index.pug
+	include ../../components/home/about/index.pug
+	include ../../components/home/find/index.pug

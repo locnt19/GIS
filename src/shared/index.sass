@@ -6,6 +6,15 @@
 @import "header/index.sass"
 @import "footer/index.sass"
 
+.container
+	padding-left: 20px
+	padding-right: 20px
+
+// Lưới layout 1240px
+@media (min-width: 1200px)
+	.container
+		max-width: 1240px
+
 /* montserrat-regular - latin */
 @font-face
 	font-family: 'Montserrat'
@@ -54,13 +63,15 @@ a
 img
 	max-width: 100%
 	height: auto
-.container
-	padding: 0 30px
-.flex-center
+.flex-center,
+.flex-right
 	display: flex
+.flex-center
 	justify-content: center
 	align-items: center
-
+.flex-right
+	a
+		margin-left: auto
 // pagination
 .modulepager
 	display: flex

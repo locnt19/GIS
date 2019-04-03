@@ -10,7 +10,7 @@
 		},
 		{
 			"name": "about",
-			"isWorking": true,
+			"isWorking": false,
 			"js": []
 		}
 	]

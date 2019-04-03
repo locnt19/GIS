@@ -1,0 +1,47 @@
+.home-country
+	.container
+		// background: #f2a513
+		padding-top: 30px
+		padding-bottom: 50px
+		@media (max-width: 992px)
+			padding-bottom: 20px
+	h3
+		color: #666
+		font-size: 20px
+		line-height: 1
+		font-weight: 600
+		margin-bottom: 20px
+	.row,
+	.country-thumbs
+		margin-left: -10px
+		margin-right: -10px
+	.col-lg-4
+		padding-left: 10px
+		padding-right: 10px
+	.country-thumbs
+		display: flex
+		@media (max-width: 992px)
+			display: none
+		.grid-2
+			padding-left: 10px
+			padding-right: 10px
+			flex: 0 0 20%
+			max-width: 20%
+			.country-item
+				margin: 0
+			.box-img
+				height: 130px
+			figcaption
+				font-size: 14px
+	.flex-center
+		margin-bottom: 20px
+		@media (min-width: 992px)
+			display: none
+		a
+			// font-size: 18px
+			color: #ff9100
+			text-decoration: none
+			box-shadow: 0 1px
+			&:after
+				margin-left: 4px
+				+larc('\e87a')
