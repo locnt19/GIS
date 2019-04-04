@@ -1,0 +1,56 @@
+.board_of_advisors
+	h3
+		font-size: 30px
+		color: #ff9100
+		text-align: center
+		margin: 30px 0 15px 0
+		letter-spacing: 1px
+		text-transform: uppercase
+	.item
+		margin-bottom: 30px
+
+	figure
+		display: flex
+		position: relative
+		&:before
+			content: ""
+			width: 4px
+			height: 100%
+			background: #ff9100
+			display: block
+			position: absolute
+			right: 0
+	figcaption
+		margin: 20px 20px 20px 40px
+		position: relative
+		h4
+			font-size: 20px
+			color: #333333
+			line-height: 50px
+		p
+			font-size: 16px
+			color: #999999
+		.button
+			width: 140px
+			height: 32px
+			border-radius: 5px
+			border: 2px #ff9100 solid
+			align-items: center
+			display: flex
+			position: absolute
+			bottom: 0
+			transition: 0.5s
+			a
+				margin: auto
+				color: #ff9100
+				text-decoration: none
+				&:before
+					content: "\f055"
+					font-family: "Font Awesome\ 5 Free"
+					font-weight: 900
+					margin-right: 5px
+			&:hover
+				background: #ff9100
+				a
+					color: #ffffff
+					
