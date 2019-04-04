@@ -2,4 +2,9 @@ extends ../_layout.pug
 block var
 	- var title = "About"
 	- var name = "about"
+	- var bodyClass = "about-page"
+
 block main
+	include ../../components/about/about-1/index.pug
+	include ../../components/about/about-2/index.pug
+	include ../../components/about/about-3/index.pug
