@@ -1,0 +1,41 @@
+.home-banner
+	position: relative
+	h3
+		color: #ff9100
+		font-size: 30px
+		line-height: 1
+		font-weight: 600
+		margin-bottom: 30px
+		text-transform: uppercase
+		text-align: center
+		@media (max-width: 992px)
+			font-size: 24px
+	.swiper-pagination
+		position: absolute
+		bottom: 28%
+		span
+			background: rgba(255, 255, 255, 0.8)
+			opacity: 1
+			&.swiper-pagination-bullet-active
+				background: #fdd325
+	figure
+		display: flex
+		justify-content: center
+		align-items: center
+		flex-direction: column
+		position: relative
+		.container
+			position: absolute
+			padding: 0
+			top: 40%
+			transform: translateY(-50%)
+	figcaption
+		display: inline-block
+		color: #fff
+		padding: 20px
+		background: rgba(232, 132, 0, 0.7)
+		font-size: 24px
+		font-weight: 600
+		text-transform: uppercase
+		@media (max-width: 992px)
+			font-size: 16px
