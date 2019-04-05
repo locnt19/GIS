@@ -1,2 +1,91 @@
 footer
-	background: black
+	padding: 60px 0 0
+	background: url('../img/footer/bg.jpg') no-repeat fixed
+	background-size: cover
+	color: #707A7F
+	h3
+		text-transform: uppercase
+		font-size: 16px
+		margin-bottom: 30px
+		font-weight: 700
+		color: #d57900
+	ul
+		list-style: none
+		font-size: 14px
+		font-weight: 400
+	li
+		margin-bottom: 15px
+		&:before
+			margin-right: 8px
+		&:nth-child(2)
+			&:before
+				+mtrl('\f3f2')
+		&:nth-child(3)
+			&:before
+				+mtrl('\f1ee')
+	a
+		color: #707A7F
+	hr
+		border: .5px solid rgba(255, 255, 255, .1)
+		margin-bottom: 30px
+	p
+		font-size: 12px
+	.footer-item
+		li
+			&:before
+				color: #707A7F
+				+larc('\e87a')
+	.flex-center
+		margin-top: 30px
+		justify-content: space-around
+		flex-wrap: wrap
+		.box-img
+			flex: 0 0 15%
+			max-width: 15%
+			background: #fff
+			border-radius: 10px
+			padding: 10px
+			@media (max-width: 992px)
+				flex: 0 0 30%
+				max-width: 30%
+				margin-bottom: 3%
+	.text-center
+		text-align: center
+		margin-top: 30px
+	.copyright
+		margin-top: 50px
+		background: #031823
+		.col-7
+			display: flex
+			align-items: center
+			justify-content: space-between
+			@media (max-width: 992px)
+				align-items: flex-start
+				flex-direction: column
+				.reserved
+					padding: 8px 0 0
+
+		.reserved
+			padding: 0
+			font-size: 14px
+			@media (max-width: 992px)
+				font-size: 12px
+		.social
+			a
+				font-size: 18px
+				color: #ff9100
+				text-decoration: none
+				border-left: 1px solid rgba(255, 255, 255,.15)
+				height: 40px
+				width: 40px
+				display: inline-flex
+				justify-content: center
+				align-items: center
+				&:last-child
+					border-right: 1px solid rgba(255, 255, 255,.15)
+				@media (max-width: 992px)
+					border: none
+					width: 30px
+					height: 30px
+					&:last-child
+						border: none
