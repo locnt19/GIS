@@ -3,14 +3,12 @@
     "page": [{
             "name": "index",
             "isWorking": true,
-            "js": [
-                "./bower_components/swiper/dist/js/swiper.min.js"
-            ]
+            "js": ["./bower_components/swiper/dist/js/swiper.min.js"]
         },
         {
             "name": "about",
             "isWorking": false,
-            "js": []
+            "js": ["./bower_components/swiper/dist/js/swiper.min.js"]
         }
     ]
 }
